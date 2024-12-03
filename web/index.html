@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+
+    <!--Alternar tema-->
+    <div>
+        <button onclick="toggleTheme()">--Alternar Tema</button>
+    </div>
+
+    <!-- container do campo de tarefa e botão de adicionar -->
+     <div class="task-inpult-container">
+        <input type="text" id="taskinpult" placeholder="Adicionar nova tarefa">
+        <button onclick="addTask()">Adicionar Tarefa</button>
+     </div>
+
+    <!-- Lista de Tarefas-->
+    <ul id="taskList"></ul>
+
+    <script src="./script.js"></script>
+    <script src="./eel.js"></script>
+</body>
+</html>
